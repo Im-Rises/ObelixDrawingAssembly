@@ -1,0 +1,11 @@
+repo:
+- '*'
+
+github-actions:
+- '.github/**/*.yml'
+
+readme:
+- 'README.md'
+
+source:
+- '*.asm'
