@@ -1,1 +1,0 @@
-Checks:          'cppcoreguidelines-*,modernize-*,-modernize-use-trailing-return-type,bugprone-*,clang-analyzer-*,readability-*,performance-*,portability-*,clang-diagnostic-*'
