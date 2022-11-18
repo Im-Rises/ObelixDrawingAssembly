@@ -94,8 +94,7 @@ Assembly Publish is a GitHub Actions workflow that publishes the Assembly build 
 
 ## Documentations
 
-Asterix or The Adventures of Asterix is a bande dessinée comic book series
-
+Asterix Comic book series made by Goscinny and Uderzo.
 
 Assembly Language in 100 Seconds:  
 <https://www.youtube.com/watch?v=4gwYkEK0gOk>
@@ -108,3 +107,7 @@ Quentin MOREL:
 - <https://github.com/Im-Rises>
 
 [![GitHub contributors](https://contrib.rocks/image?repo=Im-Rises/AssemblyTest)](https://github.com/Im-Rises/AssemblyTest/graphs/contributors)
+
+## Thanks
+
+Thanks to the creators of the Asterix Comic book series, Goscinny and Uderzo!!!
