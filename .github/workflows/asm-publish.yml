@@ -47,7 +47,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create-new-release.outputs.upload_url }}
           asset_path: release-linux.tar.gz
           asset_name: draw-obelix-linux-v${{ github.run_number }}.tar.gz
           asset_content_type: application/zip
+          upload_url: ${{ steps.create-new-release.outputs.upload_url }}
