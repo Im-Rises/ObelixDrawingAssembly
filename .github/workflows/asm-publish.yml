@@ -1,0 +1,49 @@
+name: Assembly Publish
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: install libs
+        run: |
+          sudo apt-get install make
+          sudo apt-get install gcc
+          sudo apt-get install nasm
+      - name: make
+        run: make
+      - name: Upload artifact release
+        uses: actions/upload-artifact@v2
+        with:
+          name: artifact-linux
+          path: |
+            ./draw-obelix
+  release-project:
+    name: Release project
+    needs: build-linux
+    steps:
+      - name: Download ubuntu artifact content
+        uses: actions/download-artifact@v2
+        with:
+          name: artifact-linux
+      - name: View content
+        run: ls -R
+      - name: Archive ubuntu release
+        uses: thedoctor0/zip-release@master
+        with:
+          filename: release-linux.tar.gz
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create-new-release.outputs.upload_url }}
+          asset_path: release-linux.tar.gz
+          asset_name: ParticleEngine-linux-v${{ github.run_number }}.tar.gz
+          asset_content_type: application/zip

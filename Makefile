@@ -2,12 +2,12 @@ all:
 	$(MAKE) mrproper
 	$(MAKE) HelloWorldAsm
 	#$(MAKE) HelloWorldC
-#	$(MAKE) HelloWorldWin
+    #$(MAKE) HelloWorldWin
 	$(MAKE) clean
 
 HelloWorldAsm:
 	nasm app.asm -o app.o -f elf64
-	ld app.o -o app
+	ld app.o -o draw-obelix
 
 #HelloWorldWin:
 #	nasm app.asm -o app.o -f win64
