@@ -1,4 +1,4 @@
-# AssemblyTest
+# Obelix Drawing Assembly
 
 <p align="center">
       <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="linuxLogo" style="height:60px;"/>
@@ -9,9 +9,11 @@
 This is a test project for the Assembly language.
 It only draws an image of Obelix on the screen.
 
-| Original Image | Character Art Image |
-|:--------------:|:-------------------:|
-|<img src="https://user-images.githubusercontent.com/59691442/202606288-d59d27f1-00dd-4fc5-8159-2710fe7873e3.jpg" style="height:600px" alt="obélix_ils_sont_fous">|<img src="https://user-images.githubusercontent.com/59691442/202606424-bf7328e7-c470-43cd-aad6-0d9a9eaa9753.png" style="height:600px" alt="obelix-character-art">|
+The ASCII art was made by me based on the original image below:
+
+| Original Image |                                                                        ASCII Art Image                                                                        |
+|:--------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|<img src="https://user-images.githubusercontent.com/59691442/202606288-d59d27f1-00dd-4fc5-8159-2710fe7873e3.jpg" style="height:600px" alt="obélix_ils_sont_fous">| <img src="https://user-images.githubusercontent.com/59691442/202606424-bf7328e7-c470-43cd-aad6-0d9a9eaa9753.png" style="height:600px" alt="obelix-ascii-art"> |
 
 The text output is in the `output.txt` file as well as below:
 
