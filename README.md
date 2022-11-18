@@ -89,7 +89,8 @@ The text output is in the `output.txt` file as well as below:
 [![Assembly CI](https://github.com/Im-Rises/AssemblyTest/actions/workflows/asm.yml/badge.svg?branch=main)](https://github.com/Im-Rises/AssemblyTest/actions/workflows/asm.yml)
 [![Assembly CD](https://github.com/Im-Rises/AssemblyTest/actions/workflows/asm-publish.yml/badge.svg?branch=main)](https://github.com/Im-Rises/AssemblyTest/actions/workflows/asm-publish.yml)
 
-ASM is a GitHub Actions workflow that builds the Assembly code using gcc and make for Linux.
+ASM is a GitHub Actions workflow that builds the Assembly code using gcc and make for Linux (CI).  
+Assembly Publish is a GitHub Actions workflow that publishes the Assembly build code to GitHub Pages (CD).
 
 ## Contributors
 
