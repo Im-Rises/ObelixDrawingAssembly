@@ -6,8 +6,8 @@
 
 ## Description
 
-This is a test project for the Assembly language.
-It only draws an image of Obelix on the screen.
+This is a project made for fun!
+It draws an image of Obelix on the screen using ASCII characters.
 
 The ASCII art was made by me based on the original image below:
 
@@ -15,7 +15,7 @@ The ASCII art was made by me based on the original image below:
 |:--------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |<img src="https://user-images.githubusercontent.com/59691442/202606288-d59d27f1-00dd-4fc5-8159-2710fe7873e3.jpg" style="height:600px" alt="obélix_ils_sont_fous">| <img src="https://user-images.githubusercontent.com/59691442/202606424-bf7328e7-c470-43cd-aad6-0d9a9eaa9753.png" style="height:600px" alt="obelix-ascii-art"> |
 
-The text output is in the `output.txt` file as well as below:
+You can find the real ASCII art in the `output.txt` file or click below:
 
 <details>
 <summary>Click to see the image</summary>
