@@ -92,6 +92,14 @@ The text output is in the `output.txt` file as well as below:
 ASM is a GitHub Actions workflow that builds the Assembly code using gcc and make for Linux (CI).  
 Assembly Publish is a GitHub Actions workflow that publishes the Assembly build code to GitHub Pages (CD).
 
+## Documentations
+
+Asterix or The Adventures of Asterix is a bande dessinée comic book series
+
+
+Assembly Language in 100 Seconds:  
+<https://www.youtube.com/watch?v=4gwYkEK0gOk>
+
 ## Contributors
 
 Quentin MOREL:
