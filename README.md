@@ -11,9 +11,9 @@ It draws an image of Obelix on the screen using ASCII characters.
 
 The ASCII art was made by me based on the original image below:
 
-| Original Image |                                                                        ASCII Art Image                                                                        |
-|:--------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<img src="https://user-images.githubusercontent.com/59691442/202606288-d59d27f1-00dd-4fc5-8159-2710fe7873e3.jpg" style="height:600px" alt="obélix_ils_sont_fous">| <img src="https://user-images.githubusercontent.com/59691442/202606424-bf7328e7-c470-43cd-aad6-0d9a9eaa9753.png" style="height:600px" alt="obelix-ascii-art"> |
+|                                                                                    Original Image                                                                                     |                                                  ASCII Art Image                                                   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------:|
+| <img src="https://user-images.githubusercontent.com/59691442/202606288-d59d27f1-00dd-4fc5-8159-2710fe7873e3.jpg" alt="obélix_ils_sont_fous" styles="width:50%;"> | <img src="https://user-images.githubusercontent.com/59691442/208187953-c9db400e-73be-4785-8c48-285e68532313.png"  styles="width:50%;"> |
 
 You can find the real ASCII art in the `output.txt` file or click below:
 
