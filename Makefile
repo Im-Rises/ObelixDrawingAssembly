@@ -13,3 +13,8 @@ mrproper: clean
 
 clean:
 	rm -f app.o
+
+# Code only for linux
+#ObelixAsmWindows:
+#	$(CC) app.asm -o app.o -f win64
+#	ld app.o -o draw-obelix.exe
